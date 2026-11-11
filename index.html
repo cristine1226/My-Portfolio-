@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Portfolio</title>
+    <style>
+          {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #e0f7ff;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #ffc6e0;
+            padding: 30px;
+            text-align: center;
+        }
+        .profile {
+	background: white; 
+	width: 320px; 
+	margin: 30px auto; 
+	padding: 20px; 
+	border-radius: 20px; 
+	box-shadow: 0 4px 10px #e8a5c0;
+        }
+	.photo {
+	width: 110px; 
+	height: 110px; 
+	border-radius: 50%; 
+	border: 4px solid pink; 
+	object-fit: cover;
+	}
+        h1 {
+            color: #d63384;
+            font-size: 28px;
+        }
+
+        nav {
+            background-color: #b3e5fc;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            display: inline-block;
+            background-color: #ff87b5;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #d63384;
+        }
+
+        section {
+            padding: 30px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #d63384;
+            border-bottom: 3px solid #b3e5fc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .skills-list {
+            list-style: none;
+        }
+
+        .skills-list li {
+            background-color: #e0f7ff;
+            margin: 8px 0;
+            padding: 10px 15px;
+            border-radius: 8px;
+        }
+
+        .code-box {
+            background-color: #2c3e50;
+            color: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: monospace;
+            font-size: 13px;
+            overflow-x: auto;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #ffc6e0;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER / PERSONAL INFO -->
+    <header id="home">
+        <img src="ecab3a82-d8c6-49d5-8d66-f4ac8eb073e2.jpg" class=
+"photo" alt="My Profile Picture">
+        <h1>Delo Cristine Canonizado </h1>
+        <p>BS Information Technology — 1-C</p>
+        <p>Email: cathqt2627@gmail.com | Phone: 0965-550-3388</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#java">Java Code</a>
+    </nav>
+
+    <!-- ABOUT ME -->
+    <section id="about">
+        <h2> Personal Information</h2>
+        <div class="card">
+            <p><strong>Full Name:</strong> Delo Cristine Canonizado</p>
+            <p><strong+>Nickname:</strong> Kikay</p>
+            <p><strong>Age:</strong> 18</p>
+            <p><strong>Location:</strong> Lennec Sitio Sanfelipe Guimba, Nueva Ecija</p>
+            <p>Hi there! It's me Tin🌸 I'm a first-year BSIT student at Our Lady of the Sacred Heart College. I am passionate about technology, learning how computers work, and creating simple programs. My goal is to become a skilled IT professional who can help others through technology. I am hardworking, eager to learn more, and always ready for new challenges.</p>
+        </div>
+    </section>
+    <!-- EDUCATION -->
+    <section id="education">
+        <h2> Educational Background</h2>
+        <div class="card">
+            <h3>College</h3>
+            <p><strong>Our Lady of the Sacred Heart College, Inc.</strong></p>
+            <p>Bachelor of Science in Information Technology</p>
+            <p>2026 Present</p>
+            <br>
+            <h3>Senior High School</h3>
+            <p><strong>Pacac Senior High School</strong></p>
+            <p>ABM — Accountancy, Business And Management Strand</p>
+            <p>2026 — 2025</p>
+            <br>
+            <h3>Junior High School</h3>
+            <p><strong>Pacac Junior High School</strong></p>
+            <p>2024 — 2023</p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="card">
+            <ul class="skills-list">
+                <li> Basic HTML & CSS — creating a simple webpages for my portfolio</li>
+                <li> Java Programming — understanding logical for my portfolio systems</li>
+                <li> Microsoft Office — Word, PowerPoint, Excel for creaying report and presentations</li>
+                <li> Computer Basics — file management and Data entry too</li>
+                <li> Problem Solving — logical thinking, exploring and debugging</li>
+                <li> Teamwork & Communication — working with my classmates and presenting ideas clearly</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- JAVA CODE -->
+    <section id="java">
+        <h2> Java Program — Shape Guessing Game</h2>
+        <div class="card">
+            <p><strong>Program Name:</strong> Shape Guessing Game</p>
+            <p><strong>Description:</strong> A simple console-based game where the user guesses the shape based on clues.</p>
+            <br>
+            <div class="code-box">
+// Shape Guessing Game
+import java.util.Scanner;
+
+public class VendorSales {
+public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+   double[] sales = new double[12];
+   for (int x = 0; x < 12; x++) {
+   System.out.print("Sales vendor " + x + " : ");
+   sales[x] = scan.nextDouble();
+   while (sales[x] < 0) {
+   System.out.println("Cannot be negative! Try again.");
+   System.out.print("Sales vendor " + x + " : ");
+   sales[x] = scan.nextDouble();
+}
+  }
+    double total = 0;
+    for (int x = 0; x < 12; x++) {
+    total = total + sales[x];
+  }
+    double average = total / 12;
+    double high = sales[0];
+    double low = sales[0];
+    for (int x = 1; x < 12; x++) {
+    if (sales[x] > high) {
+    high = sales[x];
+  }
+    if (sales[x] < low) {
+    low = sales[x];
+}
+  }
+    int aboveCount = 0;
+    for (int x = 0; x < 12; x++) {
+    if (sales[x] > average) {
+    aboveCount = aboveCount + 1;
+}
+  }
+    double[] sorted = new double[12];
+    for (int x = 0; x < 12; x++) {
+    sorted[x] = sales[x];
+  }
+    for (int x = 0; x < 11; x++) {
+    for (int y = 0; y < 11 - x; y++) {
+    if (sorted[y] < sorted[y + 1]) {
+    double temp = sorted[y];
+    sorted[y] = sorted[y + 1];
+    sorted[y + 1] = temp;
+  }
+ }
+}
+System.out.println("\n--- RESULTS ---");
+System.out.println("Average sales: " + average);
+System.out.println("Highest sales: " + high);
+System.out.println("Lowest sales: " + low);
+System.out.println("Vendors above average: " + aboveCount);
+
+System.out.println("\nSorted sales (descending):");
+for (int x = 0; x < 12; x++) {
+System.out.println("Index " + x + " = " + sorted[x]);
+}
+}
+}
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Created by: Delo Cristine Canonizado | BSIT 1-C</p>
+        <p>Final Exam — CC101 & CC102 | November 2026</p>
+    </footer>
+</body>
+</html>
